@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="-25dp"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/nearby_donor_card"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/list_donor_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/round_placeholder"/>
+
+        <LinearLayout
+            android:id="@+id/donor_info_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/list_donor_image_view"
+            android:layout_marginStart="15dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/list_donor_index"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="@string/donor_text"/>
+
+            <TextView
+                android:id="@+id/list_donor_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="@string/name_hint"/>
+
+            <TextView
+                android:id="@+id/list_donor_blood_type"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/blood_type_text"/>
+
+            <TextView
+                android:id="@+id/list_donor_distance"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="@string/distance_text"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:id="@+id/list_donor_call"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/round_placeholder"/>
+
+            <ImageView
+                android:id="@+id/list_donor_message"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/list_donor_call"
+                android:src="@mipmap/round_placeholder"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "215339572570",
+    "firebase_url": "https://blood-care-dce74.firebaseio.com",
+    "project_id": "blood-care-dce74",
+    "storage_bucket": "blood-care-dce74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215339572570:android:7b5024828b4ef0f6",
+        "android_client_info": {
+          "package_name": "com.bloodcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215339572570-68987liaq3m5thieemtii1glfptrriud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bloodcare",
+            "certificate_hash": "a4d2ffec31d01770d87e2f3758f43a07768f9516"
+          }
+        },
+        {
+          "client_id": "215339572570-c99d91b9rpbt3vncohkijifbek340akn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjtlG1CbbSrF6udKmQdNLty-TQ4gJ66G8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215339572570-c99d91b9rpbt3vncohkijifbek340akn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "215339572570-251gq1ub1ttserpgg8lsdm2lb0ta55qb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bloodcare"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

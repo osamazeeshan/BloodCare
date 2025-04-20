@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/nearby_donor_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="25dp"
+            android:layout_below="@id/back_arrow"
+            android:text="@string/who_donated_blood_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_container"
+        android:layout_above="@+id/pending_req_complete_btn">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/pending_request_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:background="#55ffffff">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/pending_req_complete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#c64249"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/complete_request_text"/>
+
+</RelativeLayout>

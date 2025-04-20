@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b42c33</color>
+    <color name="colorPrimaryDark">#86191e</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorYesBtnOn">#1B5E20</color>
+    <color name="colorYesBtnOff">#4043A047</color>
+    <color name="colorNoBtnOn">#B71C1C</color>
+    <color name="colorNoBtnOff">#40E53935</color>
+
+</resources>

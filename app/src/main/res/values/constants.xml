@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="anim_duration1">1</integer>
+	<integer name="anim_duration2">100</integer>
+	<integer name="anim_duration3">480</integer>
+	<integer name="anim_duration4">960</integer>
+	<integer name="anim_duration5">1280</integer>
+	<integer name="anim_duration6">1600</integer>
+	<integer name="anim_duration7">1700</integer>
+
+	<color name="splash_color">#FFE3E7ED</color>
+</resources>
