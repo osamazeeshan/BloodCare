@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80979797"
+    android:orientation="vertical">
+
+    <!--android:background="#95FF0000"-->
+    <!--<TextView-->
+        <!--android:id="@+id/donor_list_cancel"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="20sp"-->
+
+        <!--android:text="@string/cancel_text"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@mipmap/nearby_donor_background">
+
+
+            <ImageView
+                android:id="@+id/donor_back_view"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_back_white"/>
+
+            <TextView
+                android:id="@+id/donor_accept_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/nearby_donor_text"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/donor_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_below="@id/donor_accept_text"
+            android:background="#55ffffff">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>
