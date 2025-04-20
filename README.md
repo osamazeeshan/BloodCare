@@ -4,8 +4,9 @@
   <img src="./app/src/main/res/drawable//launch.png">
 </p>
 
-Blood Care is an Android app designed to connect users with blood donors, healthcare providers, and emergency services in real-time. It streamlines communication between patients, donors, hospitals, and specialized centers while providing critical features like emergency alerts, health tips, and event management.
+**Designed by [Salman Afzal](https://www.linkedin.com/in/imsalmanafzal/)**  
 
+Blood Care is an Android app designed to connect users with blood donors, healthcare providers, and emergency services in real-time. It streamlines communication between patients, donors, hospitals, and specialized centers while providing critical features like emergency alerts, health tips, and event management.
 ---
 
 ## Features ✨
@@ -21,6 +22,7 @@ Blood Care is an Android app designed to connect users with blood donors, health
 | Feature | Preview |
 |---------|---------|
 | **Login Screen** | ![Home Screen](./app/src/main/res/drawable//login.png) |
+| **Signup Screen** | ![Home Screen](./app/src/main/res/drawable//sign_up.png) |
 | **Nearby Doners** | ![Donor Search](./app/src/main/res/drawable//nearby_donor.png) |
 | **Receive Blood Request** | ![Emergency Alert](./app/src/main/res/drawable//rev_req.png) |
 | **Show Blood Donate/Request History** | ![Emergency Alert](./app/src/main/res/drawable//req_hist.png) |
@@ -35,12 +37,13 @@ Blood Care is an Android app designed to connect users with blood donors, health
 ### **User** 🧑⚕️
 **Signup Flow**:
 1. Name, Password, Contact, Email
-2. Blood Group, Age/DOB, Medical Conditions
+2. Blood Group, Age/DOB
 3. Location (City/State), Gender, Profile Picture
 4. Validation via Contact & Email
 
 **Features**:
 - Request blood groups.
+- Donate blood groups.
 - Search doctors, hospitals, and centers.
 - View donation/request history.
 - Update profile and location.
