@@ -1,5 +1,8 @@
 # Blood Care 🩸
-(./app/src/main/res/drawable//launch.png) 
+
+<p align="center">
+  <img src="./app/src/main/res/drawable//launch.png">
+</p>
 
 Blood Care is an Android app designed to connect users with blood donors, healthcare providers, and emergency services in real-time. It streamlines communication between patients, donors, hospitals, and specialized centers while providing critical features like emergency alerts, health tips, and event management.
 
