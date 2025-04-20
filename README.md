@@ -4,8 +4,6 @@
   <img src="./app/src/main/res/drawable//launch.png">
 </p>
 
-**Designed by [Salman Afzal](https://www.linkedin.com/in/imsalmanafzal/)**  
-
 Blood Care is an Android app designed to connect users with blood donors, healthcare providers, and emergency services in real-time. It streamlines communication between patients, donors, hospitals, and specialized centers while providing critical features like emergency alerts, health tips, and event management.
 ---
 
@@ -96,3 +94,5 @@ Blood Care is an Android app designed to connect users with blood donors, health
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/blood-care.git
+
+**Designed by [Salman Afzal](https://www.linkedin.com/in/imsalmanafzal/)**  
